@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: tan;
+    align-items: center;
+}
+
+header div{
+    font-size: 72px;
+    margin: 25px;
+}
+
+nav {
+    display: flex;
+    margin: 25px;
+}
+
+button{
+    border: 0px;
+    background-color: tan;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+
+.home{
+    text-align: center;
+    margin: 100px;
+    font-size: 20px;
+}
+
+#hours-header{
+    margin-bottom: 10px;
+}
+
+#home-hours{
+    margin-top: 10px;
+}

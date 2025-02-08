@@ -1,3 +1,5 @@
+import "/src/styles.css";
+import { contactPage } from "./contact";
 import { homePage } from "./home";
 import { menuPage } from "./menu";
 
@@ -21,4 +23,9 @@ menuButton.addEventListener("click", () => {
     menuPage();
 });
 
+const contactButton = document.querySelector("#contact-button");
+contactButton.addEventListener("click", ()=>{
+    clearContent();
+    contactPage();
+});
 
